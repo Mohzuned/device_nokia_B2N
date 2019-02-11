@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from B2N device
 $(call inherit-product, device/nokia/B2N/device.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common Bootleggers stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -63,7 +63,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := aosp_B2N
+PRODUCT_NAME := bootleg_B2N
 PRODUCT_BRAND := nokia
 PRODUCT_DEVICE := B2N
 PRODUCT_MANUFACTURER := nokia

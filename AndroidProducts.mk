@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_B2N.mk
+    $(LOCAL_DIR)/bootleg_B2N.mk

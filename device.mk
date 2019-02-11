@@ -169,7 +169,7 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
 # Doze
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     NokiaDoze
 
 # DRM
@@ -251,7 +251,6 @@ PRODUCT_PACKAGES += \
 
 # IPv6
 PRODUCT_PACKAGES += \
-    ebtables \
     ethertypes
 
 # IR
